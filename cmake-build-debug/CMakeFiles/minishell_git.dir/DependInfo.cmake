@@ -68,6 +68,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_tolower.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_tolower.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_toupper.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_toupper.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/get_next_line.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.o"
+  "/Users/ebulwer/projects/minishell_git/test_shell.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/test_shell.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

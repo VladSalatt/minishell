@@ -71,4 +71,5 @@ add_executable(minishell_git
         libft/srcs/ft_swap.c
         libft/srcs/ft_tolower.c
         libft/srcs/ft_toupper.c
-        libft/srcs/get_next_line.c)
+        libft/srcs/get_next_line.c
+        test_shell.c)

@@ -25,7 +25,7 @@ void 	read_command(char cmd[], char *par[])
 	char	*array[100];
 	char 	*pch;
 
-	// Read one line
+    	// Read one line
 	while (1)//  Попробовать заменить на while(1)
 	{
 		int c = fgetc( stdin );
