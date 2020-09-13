@@ -1871,33 +1871,6 @@ libft/srcs/get_next_line.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.s
 .PHONY : libft/srcs/get_next_line.c.s
 
-test_shell.o: test_shell.c.o
-
-.PHONY : test_shell.o
-
-# target to build an object file
-test_shell.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/test_shell.c.o
-.PHONY : test_shell.c.o
-
-test_shell.i: test_shell.c.i
-
-.PHONY : test_shell.i
-
-# target to preprocess a source file
-test_shell.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/test_shell.c.i
-.PHONY : test_shell.c.i
-
-test_shell.s: test_shell.c.s
-
-.PHONY : test_shell.s
-
-# target to generate assembly for a file
-test_shell.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/test_shell.c.s
-.PHONY : test_shell.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2099,9 +2072,6 @@ help:
 	@echo "... libft/srcs/get_next_line.o"
 	@echo "... libft/srcs/get_next_line.i"
 	@echo "... libft/srcs/get_next_line.s"
-	@echo "... test_shell.o"
-	@echo "... test_shell.i"
-	@echo "... test_shell.s"
 .PHONY : help
 
 

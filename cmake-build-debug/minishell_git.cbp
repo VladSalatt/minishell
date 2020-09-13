@@ -278,9 +278,6 @@
 		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/srcs/get_next_line.c">
 			<Option target="minishell_git"/>
 		</Unit>
-		<Unit filename="/Users/ebulwer/projects/minishell_git/test_shell.c">
-			<Option target="minishell_git"/>
-		</Unit>
 		<Unit filename="/Users/ebulwer/projects/minishell_git/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

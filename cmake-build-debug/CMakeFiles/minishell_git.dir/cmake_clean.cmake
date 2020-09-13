@@ -63,7 +63,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell_git.dir/libft/srcs/ft_tolower.c.o"
   "CMakeFiles/minishell_git.dir/libft/srcs/ft_toupper.c.o"
   "CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.o"
-  "CMakeFiles/minishell_git.dir/test_shell.c.o"
   "minishell_git"
   "minishell_git.pdb"
 )

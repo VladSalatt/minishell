@@ -16,6 +16,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdarg.h>
 
 typedef struct		s_list
 {
@@ -24,6 +25,7 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
+void 				ft_strglue(char *puthere, ...);
 void				*ft_memset(void *dest, int c, size_t len);
 size_t				ft_strlen(const char *s);
 void				ft_bzero(void *s, size_t n);
