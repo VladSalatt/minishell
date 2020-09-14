@@ -8,6 +8,10 @@
 # include <sys/types.h>
 # include <sys/stat.h>
 # include <limits.h>
+# include <fcntl.h>
+# include <dirent.h>
+# include <signal.h>
+
 
 # define GIT_BRANCH_NAME_FILE ".git/HEAD"
 

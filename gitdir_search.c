@@ -19,6 +19,13 @@ static char 	*get_path(char *current_path)
 static char 	*get_branch_name(char *path_to_branch_name_file)
 {
 	int 	fd;
+	t_buff  *buff;
+	char    *branch_name;
+	char    symb;
+
+	if ((fd = open(path_to_branch_name_file, O_RDONLY)) == -1)
+	    return (NULL);
+	buff =
 }
 
 char 	*gitdir_search(void)

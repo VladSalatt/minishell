@@ -25,6 +25,20 @@ typedef struct		s_list
 	struct s_list	*next;
 }					t_list;
 
+/*
+ * ft_buffer
+ */
+
+typedef struct      s_buff
+{
+    char            *str;
+    int             i;
+    int             totalsize;
+    int             additional_size;
+}                   t_buff;
+
+t_buff				*ft_buffinit(int size);
+
 void 				ft_strglue(char *puthere, ...);
 void				*ft_memset(void *dest, int c, size_t len);
 size_t				ft_strlen(const char *s);
