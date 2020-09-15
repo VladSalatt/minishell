@@ -16,6 +16,30 @@ static char 	*get_path(char *current_path)
 	return (path_to_branch_name_file);
 }
 
+/*
+ * Cuts a branch name from a line read from a file
+ */
+
+static char 	*cut_off_branch_name(const char *buff)
+{
+	int 	counter;
+	int 	i;
+	char 	*result;
+
+	i = 0;
+	counter = ft_strlen(buff);
+	while (buff[counter--] != '/')
+		i++;
+	if ((result = (char *)ft_memalloc(sizeof(char) * (i - 1))) == NULL)
+		exit(1);
+	i = 0;
+	counter++;
+	while (buff[++counter] != '\n' && buff[counter] != '\0')
+		result[i++] = buff[counter];
+	return[i] = '\0';
+	return (result);
+}
+
 static char 	*get_branch_name(char *path_to_branch_name_file)
 {
 	int 	fd;
@@ -25,7 +49,12 @@ static char 	*get_branch_name(char *path_to_branch_name_file)
 
 	if ((fd = open(path_to_branch_name_file, O_RDONLY)) == -1)
 	    return (NULL);
-	buff =
+	buff = ft_buffinit(BUFF_BRANCH_NAME_SIZE);
+	while (read(fd, &symb, 1) > 0)
+		ft_buffaddsymb(buff, symb);
+	close(fd);
+	branch_name =
+
 }
 
 char 	*gitdir_search(void)

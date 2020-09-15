@@ -26,6 +26,12 @@ typedef struct		s_list
 }					t_list;
 
 /*
+ * ft_alloc
+ */
+
+void 				*ft_realloc(void *ptr, size_t newsize);
+
+/*
  * ft_buffer
  */
 
@@ -38,6 +44,8 @@ typedef struct      s_buff
 }                   t_buff;
 
 t_buff				*ft_buffinit(int size);
+void 				ft_buffaddsymb(t_buff *buff, char c);
+
 
 void 				ft_strglue(char *puthere, ...);
 void				*ft_memset(void *dest, int c, size_t len);
