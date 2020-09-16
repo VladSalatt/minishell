@@ -16,6 +16,7 @@
 # define GIT_BRANCH_NAME_FILE ".git/HEAD"
 # define BUFF_BRANCH_NAME_SIZE 30
 
+char 	**g_envy;
 int		g_signalflag;
 
 char 	*gitdir_search(void);

@@ -26,6 +26,13 @@ typedef struct		s_list
 }					t_list;
 
 /*
+ * ft_matr
+ */
+
+size_t 				ft_matrlen(const char **matr);
+
+
+/*
  * ft_alloc
  */
 
