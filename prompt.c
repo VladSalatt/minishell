@@ -6,6 +6,6 @@ void 	display_prompt(void)
 
 	if (g_signalflag == 0)
 	{
-		if ((branch_name = //))
+		if ((branch_name = gitdir_search()))
 	}
 }

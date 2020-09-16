@@ -45,6 +45,7 @@ typedef struct      s_buff
 
 t_buff				*ft_buffinit(int size);
 void 				ft_buffaddsymb(t_buff *buff, char c);
+void 				ft_buffdel(t_buff **buff);
 
 
 void 				ft_strglue(char *puthere, ...);

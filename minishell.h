@@ -19,5 +19,7 @@
 int		g_signalflag;
 
 char 	*gitdir_search(void);
+void 	handle_ctrl_c(int sig);
+void 	display_prompt(void);
 
 #endif

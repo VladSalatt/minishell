@@ -1,7 +1,8 @@
 #include "minishell.h"
 
-/* Glues current position and default
-** location with the branch name
+/*
+ * Glues current position and default
+ * location with the branch name
 */
 
 static char 	*get_path(char *current_path)
@@ -40,6 +41,10 @@ static char 	*cut_off_branch_name(const char *buff)
 	return (result);
 }
 
+/*
+ * Opens the file and take the name of the branch
+ */
+
 static char 	*get_branch_name(char *path_to_branch_name_file)
 {
 	int 	fd;
@@ -53,9 +58,30 @@ static char 	*get_branch_name(char *path_to_branch_name_file)
 	while (read(fd, &symb, 1) > 0)
 		ft_buffaddsymb(buff, symb);
 	close(fd);
-	branch_name =
-
+	branch_name = cut_off_branch_name((const char *)buff->str);
+	ft_buffdel(&buff);
+	return (branch_name);
 }
+
+/*
+ * Cuts a step from the current path
+ * The current path goes down one level
+ */
+
+static void 	move_to_lower_level(char *current_path)
+{
+	int 		i;
+
+	i = ft_strlen(current_path);
+	while (current_path[i] != '/')
+		current_path[i--] = '\0';
+	if (i != 0)
+		current_path[i] = '\0';
+}
+
+/*
+ * Looks for a git folder until it reaches the root folder
+ */
 
 char 	*gitdir_search(void)
 {
@@ -74,7 +100,14 @@ char 	*gitdir_search(void)
 		path_to_branch_name_file = get_path(current_path);
 		if (access(path_to_branch_name_file, 0) == 0)
 		{
-			branch_name = get_branch_name
+			branch_name = get_branch_name(path_to_branch_name_file);
+			ft_strdel(&path_to_branch_name_file);
+			break ;
 		}
+		move_to_lower_level(current_path);
+		ft_strdel(&path_to_branch_name_file);
 	}
+	ft_strdel(&stop_path);
+	ft_strdel(&current_path);
+	return (branch_name);
 }
