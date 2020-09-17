@@ -17,10 +17,12 @@
 # define BUFF_BRANCH_NAME_SIZE 30
 
 char 	**g_envy;
+t_map 	*g_envypath;
 int		g_signalflag;
 
 char 	*gitdir_search(void);
 void 	handle_ctrl_c(int sig);
 void 	display_prompt(void);
+void 	init_global_envy(const char **envy);
 
 #endif

@@ -54,6 +54,20 @@ t_buff				*ft_buffinit(int size);
 void 				ft_buffaddsymb(t_buff *buff, char c);
 void 				ft_buffdel(t_buff **buff);
 
+/*
+ * ft_map
+ */
+
+# include "../../ft_map/ft_map.h"
+
+typedef struct 		s_map
+{
+	t_hlist 		**head;
+	int 			size;
+	void 			*hashfunc;
+}					t_map;
+
+t_map				*ft_mapnew(void *hashfunc_ptr, int size);
 
 void 				ft_strglue(char *puthere, ...);
 void				*ft_memset(void *dest, int c, size_t len);
