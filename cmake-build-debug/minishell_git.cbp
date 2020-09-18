@@ -44,7 +44,13 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/ebulwer/projects/minishell_git/."/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/ft_map"/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/libft"/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/libft/ft_alloc"/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/libft/ft_buffer"/>
 					<Add directory="/Users/ebulwer/projects/minishell_git/libft/includes"/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/libft/srcs"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -65,7 +71,13 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/ebulwer/projects/minishell_git/."/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/ft_map"/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/libft"/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/libft/ft_alloc"/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/libft/ft_buffer"/>
 					<Add directory="/Users/ebulwer/projects/minishell_git/libft/includes"/>
+					<Add directory="/Users/ebulwer/projects/minishell_git/libft/srcs"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -80,6 +92,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/gitdir_search.c">
+			<Option target="minishell_git"/>
+		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/ft_alloc/ft_realloc.c">
+			<Option target="minishell_git"/>
+		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/ft_buffer/ft_buffaddsymb.c">
+			<Option target="minishell_git"/>
+		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/ft_buffer/ft_buffdel.c">
+			<Option target="minishell_git"/>
+		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/ft_buffer/ft_buffinit.c">
+			<Option target="minishell_git"/>
+		</Unit>
 		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/includes/get_next_line.h">
 			<Option target="minishell_git"/>
 		</Unit>
@@ -185,6 +212,9 @@
 		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/srcs/ft_sqrt.c">
 			<Option target="minishell_git"/>
 		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/srcs/ft_stlglue.c">
+			<Option target="minishell_git"/>
+		</Unit>
 		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/srcs/ft_strcat.c">
 			<Option target="minishell_git"/>
 		</Unit>
@@ -276,6 +306,18 @@
 			<Option target="minishell_git"/>
 		</Unit>
 		<Unit filename="/Users/ebulwer/projects/minishell_git/libft/srcs/get_next_line.c">
+			<Option target="minishell_git"/>
+		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/main.c">
+			<Option target="minishell_git"/>
+		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/minishell.h">
+			<Option target="minishell_git"/>
+		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/prompt.c">
+			<Option target="minishell_git"/>
+		</Unit>
+		<Unit filename="/Users/ebulwer/projects/minishell_git/signal.c">
 			<Option target="minishell_git"/>
 		</Unit>
 		<Unit filename="/Users/ebulwer/projects/minishell_git/CMakeLists.txt">

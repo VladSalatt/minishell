@@ -58,7 +58,7 @@ void 				ft_buffdel(t_buff **buff);
  * ft_map
  */
 
-# include "../../ft_map/ft_map.h"
+# include "../ft_map/ft_map.h"
 
 typedef struct 		s_map
 {

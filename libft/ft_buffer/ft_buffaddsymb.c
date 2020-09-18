@@ -1,5 +1,9 @@
 # include "libft.h"
 
+/*
+ * Write char into the buff
+ */
+
 void 		ft_buffaddsymb(t_buff *buff, char c)
 {
 	int 	size_of_new_str;

@@ -12,8 +12,8 @@ t_map		*ft_mapnew(void *hashfunc_ptr, int size)
 	if (hashfunc_ptr != NULL)
 		map->hashfunc = hashfunc_ptr;
 	else
-		map->hashfunc - DEFAULT_HASHFUNC;
-	map->size - size;
+		map->hashfunc = DEFAULT_HASHFUNC;
+	map->size = size;
 	map->head = (t_hlist **)malloc(sizeof(t_hlist *) * map->size);
 	while (i < map->size)
 		map->head[i++] = NULL;

@@ -1,5 +1,9 @@
 #include "libft.h"
 
+/*
+ * Puts into the "puthere" the arguments that were entered after him
+ */
+
 void 	ft_strglue(char *puthere, ...)
 {
 	va_list		arg;

@@ -4,6 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/ebulwer/projects/minishell_git/gitdir_search.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/gitdir_search.c.o"
+  "/Users/ebulwer/projects/minishell_git/libft/ft_alloc/ft_realloc.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/ft_alloc/ft_realloc.c.o"
+  "/Users/ebulwer/projects/minishell_git/libft/ft_buffer/ft_buffaddsymb.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffaddsymb.c.o"
+  "/Users/ebulwer/projects/minishell_git/libft/ft_buffer/ft_buffdel.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffdel.c.o"
+  "/Users/ebulwer/projects/minishell_git/libft/ft_buffer/ft_buffinit.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffinit.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_atoi.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_atoi.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_bzero.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_bzero.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_isalnum.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_isalnum.c.o"
@@ -37,6 +42,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_putstr.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_putstr.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_putstr_fd.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_putstr_fd.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_sqrt.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_sqrt.c.o"
+  "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_stlglue.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_stlglue.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_strcat.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_strcat.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_strchr.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_strchr.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_strclr.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_strclr.c.o"
@@ -68,12 +74,21 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_tolower.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_tolower.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/ft_toupper.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/ft_toupper.c.o"
   "/Users/ebulwer/projects/minishell_git/libft/srcs/get_next_line.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.o"
+  "/Users/ebulwer/projects/minishell_git/main.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/main.c.o"
+  "/Users/ebulwer/projects/minishell_git/prompt.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/prompt.c.o"
+  "/Users/ebulwer/projects/minishell_git/signal.c" "/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles/minishell_git.dir/signal.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../."
+  "../ft_map"
+  "../libft"
+  "../libft/ft_alloc"
+  "../libft/ft_buffer"
   "../libft/includes"
+  "../libft/srcs"
   )
 
 # Targets to which this target links.

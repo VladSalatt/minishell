@@ -3,9 +3,19 @@ project(minishell_git C)
 
 set(CMAKE_C_STANDARD 11)
 
+include_directories(.)
+include_directories(libft/ft_map)
+include_directories(libft)
+include_directories(libft/ft_alloc)
+include_directories(libft/ft_buffer)
 include_directories(libft/includes)
+include_directories(libft/srcs)
 
 add_executable(minishell_git
+        libft/ft_alloc/ft_realloc.c
+        libft/ft_buffer/ft_buffaddsymb.c
+        libft/ft_buffer/ft_buffdel.c
+        libft/ft_buffer/ft_buffinit.c
         libft/includes/get_next_line.h
         libft/includes/libft.h
         libft/srcs/ft_atoi.c
@@ -41,6 +51,7 @@ add_executable(minishell_git
         libft/srcs/ft_putstr.c
         libft/srcs/ft_putstr_fd.c
         libft/srcs/ft_sqrt.c
+        libft/srcs/ft_stlglue.c
         libft/srcs/ft_strcat.c
         libft/srcs/ft_strchr.c
         libft/srcs/ft_strclr.c
@@ -72,4 +83,8 @@ add_executable(minishell_git
         libft/srcs/ft_tolower.c
         libft/srcs/ft_toupper.c
         libft/srcs/get_next_line.c
-        )
+        src/gitdir_search.c
+        src/main.c
+        src/minishell.h
+        src/prompt.c
+        src/signal.c)

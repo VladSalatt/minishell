@@ -13,7 +13,7 @@ static char 	*get_path(char *current_path)
 	len = ft_strlen(current_path) + ft_strlen("/") + ft_strlen(GIT_BRANCH_NAME_FILE) + 1;
 	if ((path_to_branch_name_file = (char *)ft_memalloc(sizeof(char) * len)) == NULL)
 		exit(-1);
-	ft_strglue(path_to_branch_name_file, current_path, "/", GIT_BRANCH_NAME_FILE, NULL);
+	ft_strglue(path_to_branch_name_file, current_path, "/", GIT_BRANCH_NAME_FILE, NULL); // Puts into the "path_to_branch_name_file" the arguments that were entered after him
 	return (path_to_branch_name_file);
 }
 
@@ -37,7 +37,7 @@ static char 	*cut_off_branch_name(const char *buff)
 	counter++;
 	while (buff[++counter] != '\n' && buff[counter] != '\0')
 		result[i++] = buff[counter];
-	return[i] = '\0';
+	result[i] = '\0';
 	return (result);
 }
 
@@ -54,9 +54,9 @@ static char 	*get_branch_name(char *path_to_branch_name_file)
 
 	if ((fd = open(path_to_branch_name_file, O_RDONLY)) == -1)
 	    return (NULL);
-	buff = ft_buffinit(BUFF_BRANCH_NAME_SIZE);
-	while (read(fd, &symb, 1) > 0)
-		ft_buffaddsymb(buff, symb);
+	buff = ft_buffinit(BUFF_BRANCH_NAME_SIZE);			 // Create the buff
+	while (read(fd, &symb, 1) > 0)						 // Read one char at a time
+		ft_buffaddsymb(buff, symb);                      // Add char into the buff
 	close(fd);
 	branch_name = cut_off_branch_name((const char *)buff->str);
 	ft_buffdel(&buff);
@@ -92,13 +92,13 @@ char 	*gitdir_search(void)
 	char 	dir[PATH_MAX];
 
 	branch_name = NULL;
-	stop_path = ft_strdup("/");
-	getcwd(dir, PATH_MAX);
+	stop_path = ft_strdup("/");   // The root folder
+	getcwd(dir, PATH_MAX);			  // Writing the current path in the buff(dir)
 	current_path = ft_strdup(dir);
 	while (ft_strcmp(current_path, stop_path) != 0)
 	{
 		path_to_branch_name_file = get_path(current_path);
-		if (access(path_to_branch_name_file, 0) == 0)
+		if (access(path_to_branch_name_file, 0) == 0)   // ??? // Access rights is allow // I don't know what means "0"
 		{
 			branch_name = get_branch_name(path_to_branch_name_file);
 			ft_strdel(&path_to_branch_name_file);

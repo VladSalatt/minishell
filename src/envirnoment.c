@@ -13,7 +13,7 @@ const char 		*getvalue_envy(const char *var_name)
 	if (var_name == NULL)
 		return (NULL);
 	len = ft_strlen(var_name);
-	if ((index_of_key = find_((const char **)g_envy, var_name)) == -1)
+	if ((index_of_key = find_envy((const char **)g_envy, var_name)) == -1)
 		return (NULL);
 	result = g_envy[index_of_key] + len + 1;
 	return (result);
@@ -23,7 +23,7 @@ const char 		*getvalue_envy(const char *var_name)
  * Get index of environment variable
  */
 
-int 			find_(const char **envy, const char *var_name)
+int 			find_envy(const char **envy, const char *var_name)
 {
 	int 		i;
 	int 		j;

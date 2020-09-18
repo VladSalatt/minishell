@@ -9,7 +9,7 @@ void 	display_git_prompt(char **branch_name)
 	ft_putstr("(mini) ");
 	ft_putstr("-> ");
 	ft_putstr(*branch_name);
-	ft_strdel(&branch_name);
+	ft_strdel(branch_name);
 }
 
 /*
@@ -31,7 +31,7 @@ void 	display_prompt(void)
 
 	if (g_signalflag == 0)
 	{
-		if ((branch_name = gitdir_search()) != NULL)
+		if ((branch_name = gitdir_search()) != NULL)  // If a git branch exist
 			display_git_prompt(&branch_name);
 		else
 			display_default_prompt();

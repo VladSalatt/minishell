@@ -4,7 +4,7 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <stdlib.h>
-# include "libft/includes/libft.h"
+# include "../libft/includes/libft.h"
 # include <sys/types.h>
 # include <sys/stat.h>
 # include <limits.h>
@@ -24,5 +24,6 @@ char 	*gitdir_search(void);
 void 	handle_ctrl_c(int sig);
 void 	display_prompt(void);
 void 	init_global_envy(const char **envy);
+int 	find_envy(const char **envy, const char *var_name);
 
 #endif

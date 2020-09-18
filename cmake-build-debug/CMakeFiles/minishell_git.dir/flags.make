@@ -6,5 +6,5 @@ C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/ebulwer/projects/minishell_git/libft/includes 
+C_INCLUDES = -I/Users/ebulwer/projects/minishell_git/. -I/Users/ebulwer/projects/minishell_git/ft_map -I/Users/ebulwer/projects/minishell_git/libft -I/Users/ebulwer/projects/minishell_git/libft/ft_alloc -I/Users/ebulwer/projects/minishell_git/libft/ft_buffer -I/Users/ebulwer/projects/minishell_git/libft/includes -I/Users/ebulwer/projects/minishell_git/libft/srcs 
 

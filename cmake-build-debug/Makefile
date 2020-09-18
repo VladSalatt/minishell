@@ -143,6 +143,141 @@ minishell_git/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/build
 .PHONY : minishell_git/fast
 
+gitdir_search.o: gitdir_search.c.o
+
+.PHONY : gitdir_search.o
+
+# target to build an object file
+gitdir_search.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/gitdir_search.c.o
+.PHONY : gitdir_search.c.o
+
+gitdir_search.i: gitdir_search.c.i
+
+.PHONY : gitdir_search.i
+
+# target to preprocess a source file
+gitdir_search.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/gitdir_search.c.i
+.PHONY : gitdir_search.c.i
+
+gitdir_search.s: gitdir_search.c.s
+
+.PHONY : gitdir_search.s
+
+# target to generate assembly for a file
+gitdir_search.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/gitdir_search.c.s
+.PHONY : gitdir_search.c.s
+
+libft/ft_alloc/ft_realloc.o: libft/ft_alloc/ft_realloc.c.o
+
+.PHONY : libft/ft_alloc/ft_realloc.o
+
+# target to build an object file
+libft/ft_alloc/ft_realloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_alloc/ft_realloc.c.o
+.PHONY : libft/ft_alloc/ft_realloc.c.o
+
+libft/ft_alloc/ft_realloc.i: libft/ft_alloc/ft_realloc.c.i
+
+.PHONY : libft/ft_alloc/ft_realloc.i
+
+# target to preprocess a source file
+libft/ft_alloc/ft_realloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_alloc/ft_realloc.c.i
+.PHONY : libft/ft_alloc/ft_realloc.c.i
+
+libft/ft_alloc/ft_realloc.s: libft/ft_alloc/ft_realloc.c.s
+
+.PHONY : libft/ft_alloc/ft_realloc.s
+
+# target to generate assembly for a file
+libft/ft_alloc/ft_realloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_alloc/ft_realloc.c.s
+.PHONY : libft/ft_alloc/ft_realloc.c.s
+
+libft/ft_buffer/ft_buffaddsymb.o: libft/ft_buffer/ft_buffaddsymb.c.o
+
+.PHONY : libft/ft_buffer/ft_buffaddsymb.o
+
+# target to build an object file
+libft/ft_buffer/ft_buffaddsymb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffaddsymb.c.o
+.PHONY : libft/ft_buffer/ft_buffaddsymb.c.o
+
+libft/ft_buffer/ft_buffaddsymb.i: libft/ft_buffer/ft_buffaddsymb.c.i
+
+.PHONY : libft/ft_buffer/ft_buffaddsymb.i
+
+# target to preprocess a source file
+libft/ft_buffer/ft_buffaddsymb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffaddsymb.c.i
+.PHONY : libft/ft_buffer/ft_buffaddsymb.c.i
+
+libft/ft_buffer/ft_buffaddsymb.s: libft/ft_buffer/ft_buffaddsymb.c.s
+
+.PHONY : libft/ft_buffer/ft_buffaddsymb.s
+
+# target to generate assembly for a file
+libft/ft_buffer/ft_buffaddsymb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffaddsymb.c.s
+.PHONY : libft/ft_buffer/ft_buffaddsymb.c.s
+
+libft/ft_buffer/ft_buffdel.o: libft/ft_buffer/ft_buffdel.c.o
+
+.PHONY : libft/ft_buffer/ft_buffdel.o
+
+# target to build an object file
+libft/ft_buffer/ft_buffdel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffdel.c.o
+.PHONY : libft/ft_buffer/ft_buffdel.c.o
+
+libft/ft_buffer/ft_buffdel.i: libft/ft_buffer/ft_buffdel.c.i
+
+.PHONY : libft/ft_buffer/ft_buffdel.i
+
+# target to preprocess a source file
+libft/ft_buffer/ft_buffdel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffdel.c.i
+.PHONY : libft/ft_buffer/ft_buffdel.c.i
+
+libft/ft_buffer/ft_buffdel.s: libft/ft_buffer/ft_buffdel.c.s
+
+.PHONY : libft/ft_buffer/ft_buffdel.s
+
+# target to generate assembly for a file
+libft/ft_buffer/ft_buffdel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffdel.c.s
+.PHONY : libft/ft_buffer/ft_buffdel.c.s
+
+libft/ft_buffer/ft_buffinit.o: libft/ft_buffer/ft_buffinit.c.o
+
+.PHONY : libft/ft_buffer/ft_buffinit.o
+
+# target to build an object file
+libft/ft_buffer/ft_buffinit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffinit.c.o
+.PHONY : libft/ft_buffer/ft_buffinit.c.o
+
+libft/ft_buffer/ft_buffinit.i: libft/ft_buffer/ft_buffinit.c.i
+
+.PHONY : libft/ft_buffer/ft_buffinit.i
+
+# target to preprocess a source file
+libft/ft_buffer/ft_buffinit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffinit.c.i
+.PHONY : libft/ft_buffer/ft_buffinit.c.i
+
+libft/ft_buffer/ft_buffinit.s: libft/ft_buffer/ft_buffinit.c.s
+
+.PHONY : libft/ft_buffer/ft_buffinit.s
+
+# target to generate assembly for a file
+libft/ft_buffer/ft_buffinit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffinit.c.s
+.PHONY : libft/ft_buffer/ft_buffinit.c.s
+
 libft/srcs/ft_atoi.o: libft/srcs/ft_atoi.c.o
 
 .PHONY : libft/srcs/ft_atoi.o
@@ -1034,6 +1169,33 @@ libft/srcs/ft_sqrt.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/srcs/ft_sqrt.c.s
 .PHONY : libft/srcs/ft_sqrt.c.s
 
+libft/srcs/ft_stlglue.o: libft/srcs/ft_stlglue.c.o
+
+.PHONY : libft/srcs/ft_stlglue.o
+
+# target to build an object file
+libft/srcs/ft_stlglue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/srcs/ft_stlglue.c.o
+.PHONY : libft/srcs/ft_stlglue.c.o
+
+libft/srcs/ft_stlglue.i: libft/srcs/ft_stlglue.c.i
+
+.PHONY : libft/srcs/ft_stlglue.i
+
+# target to preprocess a source file
+libft/srcs/ft_stlglue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/srcs/ft_stlglue.c.i
+.PHONY : libft/srcs/ft_stlglue.c.i
+
+libft/srcs/ft_stlglue.s: libft/srcs/ft_stlglue.c.s
+
+.PHONY : libft/srcs/ft_stlglue.s
+
+# target to generate assembly for a file
+libft/srcs/ft_stlglue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/srcs/ft_stlglue.c.s
+.PHONY : libft/srcs/ft_stlglue.c.s
+
 libft/srcs/ft_strcat.o: libft/srcs/ft_strcat.c.o
 
 .PHONY : libft/srcs/ft_strcat.o
@@ -1871,6 +2033,87 @@ libft/srcs/get_next_line.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.s
 .PHONY : libft/srcs/get_next_line.c.s
 
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/main.c.s
+.PHONY : main.c.s
+
+prompt.o: prompt.c.o
+
+.PHONY : prompt.o
+
+# target to build an object file
+prompt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/prompt.c.o
+.PHONY : prompt.c.o
+
+prompt.i: prompt.c.i
+
+.PHONY : prompt.i
+
+# target to preprocess a source file
+prompt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/prompt.c.i
+.PHONY : prompt.c.i
+
+prompt.s: prompt.c.s
+
+.PHONY : prompt.s
+
+# target to generate assembly for a file
+prompt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/prompt.c.s
+.PHONY : prompt.c.s
+
+signal.o: signal.c.o
+
+.PHONY : signal.o
+
+# target to build an object file
+signal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/signal.c.o
+.PHONY : signal.c.o
+
+signal.i: signal.c.i
+
+.PHONY : signal.i
+
+# target to preprocess a source file
+signal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/signal.c.i
+.PHONY : signal.c.i
+
+signal.s: signal.c.s
+
+.PHONY : signal.s
+
+# target to generate assembly for a file
+signal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/signal.c.s
+.PHONY : signal.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1880,6 +2123,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... minishell_git"
+	@echo "... gitdir_search.o"
+	@echo "... gitdir_search.i"
+	@echo "... gitdir_search.s"
+	@echo "... libft/ft_alloc/ft_realloc.o"
+	@echo "... libft/ft_alloc/ft_realloc.i"
+	@echo "... libft/ft_alloc/ft_realloc.s"
+	@echo "... libft/ft_buffer/ft_buffaddsymb.o"
+	@echo "... libft/ft_buffer/ft_buffaddsymb.i"
+	@echo "... libft/ft_buffer/ft_buffaddsymb.s"
+	@echo "... libft/ft_buffer/ft_buffdel.o"
+	@echo "... libft/ft_buffer/ft_buffdel.i"
+	@echo "... libft/ft_buffer/ft_buffdel.s"
+	@echo "... libft/ft_buffer/ft_buffinit.o"
+	@echo "... libft/ft_buffer/ft_buffinit.i"
+	@echo "... libft/ft_buffer/ft_buffinit.s"
 	@echo "... libft/srcs/ft_atoi.o"
 	@echo "... libft/srcs/ft_atoi.i"
 	@echo "... libft/srcs/ft_atoi.s"
@@ -1979,6 +2237,9 @@ help:
 	@echo "... libft/srcs/ft_sqrt.o"
 	@echo "... libft/srcs/ft_sqrt.i"
 	@echo "... libft/srcs/ft_sqrt.s"
+	@echo "... libft/srcs/ft_stlglue.o"
+	@echo "... libft/srcs/ft_stlglue.i"
+	@echo "... libft/srcs/ft_stlglue.s"
 	@echo "... libft/srcs/ft_strcat.o"
 	@echo "... libft/srcs/ft_strcat.i"
 	@echo "... libft/srcs/ft_strcat.s"
@@ -2072,6 +2333,15 @@ help:
 	@echo "... libft/srcs/get_next_line.o"
 	@echo "... libft/srcs/get_next_line.i"
 	@echo "... libft/srcs/get_next_line.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... prompt.o"
+	@echo "... prompt.i"
+	@echo "... prompt.s"
+	@echo "... signal.o"
+	@echo "... signal.i"
+	@echo "... signal.s"
 .PHONY : help
 
 
