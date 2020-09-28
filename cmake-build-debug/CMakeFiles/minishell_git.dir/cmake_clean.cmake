@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/minishell_git.dir/gitdir_search.c.o"
   "CMakeFiles/minishell_git.dir/libft/ft_alloc/ft_realloc.c.o"
   "CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffaddsymb.c.o"
   "CMakeFiles/minishell_git.dir/libft/ft_buffer/ft_buffdel.c.o"
@@ -69,9 +68,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell_git.dir/libft/srcs/ft_tolower.c.o"
   "CMakeFiles/minishell_git.dir/libft/srcs/ft_toupper.c.o"
   "CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.o"
-  "CMakeFiles/minishell_git.dir/main.c.o"
-  "CMakeFiles/minishell_git.dir/prompt.c.o"
-  "CMakeFiles/minishell_git.dir/signal.c.o"
+  "CMakeFiles/minishell_git.dir/src/gitdir_search.c.o"
+  "CMakeFiles/minishell_git.dir/src/main.c.o"
+  "CMakeFiles/minishell_git.dir/src/prompt.c.o"
+  "CMakeFiles/minishell_git.dir/src/signal.c.o"
   "minishell_git"
   "minishell_git.pdb"
 )

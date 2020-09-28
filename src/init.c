@@ -6,7 +6,7 @@ void 		init_hashtable_form_envypath(void)
 	const char	*envy_path;
 
 	g_envypath = ft_mapnew(NULL, 2000);
-	if ((envy_path - getvalue_envy)
+	if ((envy_path = getvalue_envy)
 }
 
 /*
@@ -69,6 +69,6 @@ void 	init_global_envy(const char **envy)
 			g_envy[i] = ft_strdup(envy[i]);
 			i++;
 		}
-		g_envy[i] = NULL;
 	}
+	g_envy[i] = NULL;
 }

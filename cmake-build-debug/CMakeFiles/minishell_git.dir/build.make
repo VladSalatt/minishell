@@ -974,57 +974,57 @@ CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/libft/srcs/get_next_line.c -o CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.s
 
-CMakeFiles/minishell_git.dir/gitdir_search.c.o: CMakeFiles/minishell_git.dir/flags.make
-CMakeFiles/minishell_git.dir/gitdir_search.c.o: ../gitdir_search.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/minishell_git.dir/gitdir_search.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell_git.dir/gitdir_search.c.o   -c /Users/ebulwer/projects/minishell_git/gitdir_search.c
+CMakeFiles/minishell_git.dir/src/gitdir_search.c.o: CMakeFiles/minishell_git.dir/flags.make
+CMakeFiles/minishell_git.dir/src/gitdir_search.c.o: ../src/gitdir_search.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/minishell_git.dir/src/gitdir_search.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell_git.dir/src/gitdir_search.c.o   -c /Users/ebulwer/projects/minishell_git/src/gitdir_search.c
 
-CMakeFiles/minishell_git.dir/gitdir_search.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell_git.dir/gitdir_search.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ebulwer/projects/minishell_git/gitdir_search.c > CMakeFiles/minishell_git.dir/gitdir_search.c.i
+CMakeFiles/minishell_git.dir/src/gitdir_search.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell_git.dir/src/gitdir_search.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ebulwer/projects/minishell_git/src/gitdir_search.c > CMakeFiles/minishell_git.dir/src/gitdir_search.c.i
 
-CMakeFiles/minishell_git.dir/gitdir_search.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/gitdir_search.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/gitdir_search.c -o CMakeFiles/minishell_git.dir/gitdir_search.c.s
+CMakeFiles/minishell_git.dir/src/gitdir_search.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/src/gitdir_search.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/src/gitdir_search.c -o CMakeFiles/minishell_git.dir/src/gitdir_search.c.s
 
-CMakeFiles/minishell_git.dir/main.c.o: CMakeFiles/minishell_git.dir/flags.make
-CMakeFiles/minishell_git.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/minishell_git.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell_git.dir/main.c.o   -c /Users/ebulwer/projects/minishell_git/main.c
+CMakeFiles/minishell_git.dir/src/main.c.o: CMakeFiles/minishell_git.dir/flags.make
+CMakeFiles/minishell_git.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/minishell_git.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell_git.dir/src/main.c.o   -c /Users/ebulwer/projects/minishell_git/src/main.c
 
-CMakeFiles/minishell_git.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell_git.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ebulwer/projects/minishell_git/main.c > CMakeFiles/minishell_git.dir/main.c.i
+CMakeFiles/minishell_git.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell_git.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ebulwer/projects/minishell_git/src/main.c > CMakeFiles/minishell_git.dir/src/main.c.i
 
-CMakeFiles/minishell_git.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/main.c -o CMakeFiles/minishell_git.dir/main.c.s
+CMakeFiles/minishell_git.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/src/main.c -o CMakeFiles/minishell_git.dir/src/main.c.s
 
-CMakeFiles/minishell_git.dir/prompt.c.o: CMakeFiles/minishell_git.dir/flags.make
-CMakeFiles/minishell_git.dir/prompt.c.o: ../prompt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/minishell_git.dir/prompt.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell_git.dir/prompt.c.o   -c /Users/ebulwer/projects/minishell_git/prompt.c
+CMakeFiles/minishell_git.dir/src/prompt.c.o: CMakeFiles/minishell_git.dir/flags.make
+CMakeFiles/minishell_git.dir/src/prompt.c.o: ../src/prompt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/minishell_git.dir/src/prompt.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell_git.dir/src/prompt.c.o   -c /Users/ebulwer/projects/minishell_git/src/prompt.c
 
-CMakeFiles/minishell_git.dir/prompt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell_git.dir/prompt.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ebulwer/projects/minishell_git/prompt.c > CMakeFiles/minishell_git.dir/prompt.c.i
+CMakeFiles/minishell_git.dir/src/prompt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell_git.dir/src/prompt.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ebulwer/projects/minishell_git/src/prompt.c > CMakeFiles/minishell_git.dir/src/prompt.c.i
 
-CMakeFiles/minishell_git.dir/prompt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/prompt.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/prompt.c -o CMakeFiles/minishell_git.dir/prompt.c.s
+CMakeFiles/minishell_git.dir/src/prompt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/src/prompt.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/src/prompt.c -o CMakeFiles/minishell_git.dir/src/prompt.c.s
 
-CMakeFiles/minishell_git.dir/signal.c.o: CMakeFiles/minishell_git.dir/flags.make
-CMakeFiles/minishell_git.dir/signal.c.o: ../signal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/minishell_git.dir/signal.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell_git.dir/signal.c.o   -c /Users/ebulwer/projects/minishell_git/signal.c
+CMakeFiles/minishell_git.dir/src/signal.c.o: CMakeFiles/minishell_git.dir/flags.make
+CMakeFiles/minishell_git.dir/src/signal.c.o: ../src/signal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/minishell_git.dir/src/signal.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/minishell_git.dir/src/signal.c.o   -c /Users/ebulwer/projects/minishell_git/src/signal.c
 
-CMakeFiles/minishell_git.dir/signal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell_git.dir/signal.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ebulwer/projects/minishell_git/signal.c > CMakeFiles/minishell_git.dir/signal.c.i
+CMakeFiles/minishell_git.dir/src/signal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell_git.dir/src/signal.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ebulwer/projects/minishell_git/src/signal.c > CMakeFiles/minishell_git.dir/src/signal.c.i
 
-CMakeFiles/minishell_git.dir/signal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/signal.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/signal.c -o CMakeFiles/minishell_git.dir/signal.c.s
+CMakeFiles/minishell_git.dir/src/signal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell_git.dir/src/signal.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ebulwer/projects/minishell_git/src/signal.c -o CMakeFiles/minishell_git.dir/src/signal.c.s
 
 # Object files for target minishell_git
 minishell_git_OBJECTS = \
@@ -1097,10 +1097,10 @@ minishell_git_OBJECTS = \
 "CMakeFiles/minishell_git.dir/libft/srcs/ft_tolower.c.o" \
 "CMakeFiles/minishell_git.dir/libft/srcs/ft_toupper.c.o" \
 "CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.o" \
-"CMakeFiles/minishell_git.dir/gitdir_search.c.o" \
-"CMakeFiles/minishell_git.dir/main.c.o" \
-"CMakeFiles/minishell_git.dir/prompt.c.o" \
-"CMakeFiles/minishell_git.dir/signal.c.o"
+"CMakeFiles/minishell_git.dir/src/gitdir_search.c.o" \
+"CMakeFiles/minishell_git.dir/src/main.c.o" \
+"CMakeFiles/minishell_git.dir/src/prompt.c.o" \
+"CMakeFiles/minishell_git.dir/src/signal.c.o"
 
 # External object files for target minishell_git
 minishell_git_EXTERNAL_OBJECTS =
@@ -1174,10 +1174,10 @@ minishell_git: CMakeFiles/minishell_git.dir/libft/srcs/ft_swap.c.o
 minishell_git: CMakeFiles/minishell_git.dir/libft/srcs/ft_tolower.c.o
 minishell_git: CMakeFiles/minishell_git.dir/libft/srcs/ft_toupper.c.o
 minishell_git: CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.o
-minishell_git: CMakeFiles/minishell_git.dir/gitdir_search.c.o
-minishell_git: CMakeFiles/minishell_git.dir/main.c.o
-minishell_git: CMakeFiles/minishell_git.dir/prompt.c.o
-minishell_git: CMakeFiles/minishell_git.dir/signal.c.o
+minishell_git: CMakeFiles/minishell_git.dir/src/gitdir_search.c.o
+minishell_git: CMakeFiles/minishell_git.dir/src/main.c.o
+minishell_git: CMakeFiles/minishell_git.dir/src/prompt.c.o
+minishell_git: CMakeFiles/minishell_git.dir/src/signal.c.o
 minishell_git: CMakeFiles/minishell_git.dir/build.make
 minishell_git: CMakeFiles/minishell_git.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ebulwer/projects/minishell_git/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking C executable minishell_git"

@@ -143,33 +143,6 @@ minishell_git/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/build
 .PHONY : minishell_git/fast
 
-gitdir_search.o: gitdir_search.c.o
-
-.PHONY : gitdir_search.o
-
-# target to build an object file
-gitdir_search.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/gitdir_search.c.o
-.PHONY : gitdir_search.c.o
-
-gitdir_search.i: gitdir_search.c.i
-
-.PHONY : gitdir_search.i
-
-# target to preprocess a source file
-gitdir_search.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/gitdir_search.c.i
-.PHONY : gitdir_search.c.i
-
-gitdir_search.s: gitdir_search.c.s
-
-.PHONY : gitdir_search.s
-
-# target to generate assembly for a file
-gitdir_search.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/gitdir_search.c.s
-.PHONY : gitdir_search.c.s
-
 libft/ft_alloc/ft_realloc.o: libft/ft_alloc/ft_realloc.c.o
 
 .PHONY : libft/ft_alloc/ft_realloc.o
@@ -2033,86 +2006,113 @@ libft/srcs/get_next_line.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/libft/srcs/get_next_line.c.s
 .PHONY : libft/srcs/get_next_line.c.s
 
-main.o: main.c.o
+src/gitdir_search.o: src/gitdir_search.c.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/main.c.s
-.PHONY : main.c.s
-
-prompt.o: prompt.c.o
-
-.PHONY : prompt.o
+.PHONY : src/gitdir_search.o
 
 # target to build an object file
-prompt.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/prompt.c.o
-.PHONY : prompt.c.o
+src/gitdir_search.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/gitdir_search.c.o
+.PHONY : src/gitdir_search.c.o
 
-prompt.i: prompt.c.i
+src/gitdir_search.i: src/gitdir_search.c.i
 
-.PHONY : prompt.i
+.PHONY : src/gitdir_search.i
 
 # target to preprocess a source file
-prompt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/prompt.c.i
-.PHONY : prompt.c.i
+src/gitdir_search.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/gitdir_search.c.i
+.PHONY : src/gitdir_search.c.i
 
-prompt.s: prompt.c.s
+src/gitdir_search.s: src/gitdir_search.c.s
 
-.PHONY : prompt.s
+.PHONY : src/gitdir_search.s
 
 # target to generate assembly for a file
-prompt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/prompt.c.s
-.PHONY : prompt.c.s
+src/gitdir_search.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/gitdir_search.c.s
+.PHONY : src/gitdir_search.c.s
 
-signal.o: signal.c.o
+src/main.o: src/main.c.o
 
-.PHONY : signal.o
+.PHONY : src/main.o
 
 # target to build an object file
-signal.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/signal.c.o
-.PHONY : signal.c.o
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-signal.i: signal.c.i
+src/main.i: src/main.c.i
 
-.PHONY : signal.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-signal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/signal.c.i
-.PHONY : signal.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-signal.s: signal.c.s
+src/main.s: src/main.c.s
 
-.PHONY : signal.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-signal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/signal.c.s
-.PHONY : signal.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/prompt.o: src/prompt.c.o
+
+.PHONY : src/prompt.o
+
+# target to build an object file
+src/prompt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/prompt.c.o
+.PHONY : src/prompt.c.o
+
+src/prompt.i: src/prompt.c.i
+
+.PHONY : src/prompt.i
+
+# target to preprocess a source file
+src/prompt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/prompt.c.i
+.PHONY : src/prompt.c.i
+
+src/prompt.s: src/prompt.c.s
+
+.PHONY : src/prompt.s
+
+# target to generate assembly for a file
+src/prompt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/prompt.c.s
+.PHONY : src/prompt.c.s
+
+src/signal.o: src/signal.c.o
+
+.PHONY : src/signal.o
+
+# target to build an object file
+src/signal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/signal.c.o
+.PHONY : src/signal.c.o
+
+src/signal.i: src/signal.c.i
+
+.PHONY : src/signal.i
+
+# target to preprocess a source file
+src/signal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/signal.c.i
+.PHONY : src/signal.c.i
+
+src/signal.s: src/signal.c.s
+
+.PHONY : src/signal.s
+
+# target to generate assembly for a file
+src/signal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell_git.dir/build.make CMakeFiles/minishell_git.dir/src/signal.c.s
+.PHONY : src/signal.c.s
 
 # Help Target
 help:
@@ -2123,9 +2123,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... minishell_git"
-	@echo "... gitdir_search.o"
-	@echo "... gitdir_search.i"
-	@echo "... gitdir_search.s"
 	@echo "... libft/ft_alloc/ft_realloc.o"
 	@echo "... libft/ft_alloc/ft_realloc.i"
 	@echo "... libft/ft_alloc/ft_realloc.s"
@@ -2333,15 +2330,18 @@ help:
 	@echo "... libft/srcs/get_next_line.o"
 	@echo "... libft/srcs/get_next_line.i"
 	@echo "... libft/srcs/get_next_line.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... prompt.o"
-	@echo "... prompt.i"
-	@echo "... prompt.s"
-	@echo "... signal.o"
-	@echo "... signal.i"
-	@echo "... signal.s"
+	@echo "... src/gitdir_search.o"
+	@echo "... src/gitdir_search.i"
+	@echo "... src/gitdir_search.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/prompt.o"
+	@echo "... src/prompt.i"
+	@echo "... src/prompt.s"
+	@echo "... src/signal.o"
+	@echo "... src/signal.i"
+	@echo "... src/signal.s"
 .PHONY : help
 
 

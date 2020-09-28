@@ -87,4 +87,6 @@ add_executable(minishell_git
         src/main.c
         src/minishell.h
         src/prompt.c
-        src/signal.c)
+        src/signal.c
+        src/init.c
+        src/envirnoment.c)
