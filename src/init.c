@@ -1,12 +1,36 @@
 #include "minishell.h"
 
+static void push_executables_to_hashtable(const char **path)
+{
+	DIR		*dir;
+	struct dirent *entry;
+	int 	i;
+
+	i = 0;
+	while (path[i] != NULL)
+	{
+		if ((dir = opendir(path[i])) == NULL)
+			exit(-1);
+		while ((enty = readdir(dir)) != NULL)
+		{
+			if (ft_strcmp((const char *)entry->d_name, ".") == 0 || \
+				ft_strcmp((const char *)entry->d_name, "..") == 0)
+				continue;
+			//ft_mapinsert
+		}
+	}
+}
+
 void 		init_hashtable_form_envypath(void)
 {
 	char 		**tmp;
 	const char	*envy_path;
 
 	g_envypath = ft_mapnew(NULL, 2000);
-	if ((envy_path = getvalue_envy)
+	if ((envy_path = getvalue_envy("PATH")) == NULL)
+		return ;
+	tmp = ft_strsplit(envy_path, ':');
+	//push_executables_to_hashtable((const char **)tmp);
 }
 
 /*
