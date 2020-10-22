@@ -10,4 +10,6 @@ typedef struct			s_htablist
 	struct s_htablist 	*next;
 }						t_hlist;
 
+int						ft_hashfunc(const char *str, int size)
+
 #endif
